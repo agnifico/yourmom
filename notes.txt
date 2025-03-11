@@ -1,0 +1,216 @@
+    <section class="panel four">
+      <div class="parallax-container" id="pc">
+        <div class="xpillars">
+          <div class="xpillar">STRUCTURALLY SOUND.</div>
+          <div class="xpillar">VISUALLY PLEASING.</div>
+          <div class="xpillar">FUNCTIONALLY SEASONED.</div>
+          <div class="xpillar">BEHAVIOURALLY CONSIDERATE.</div>
+          <div class="xpillar">and a 100% genius.</div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="panel five">
+      <div class="section-heading" id="armoury"> </div>
+      <div class="content-box">
+        <div class="stage" id="stage">
+          <div class="card" onclick="openTab('gd')" id="card-1">
+            <div class="card-title">Artist's Foliar Blade</div>
+            <img src="images/a.svg" class="card-image">
+            <div class="card-text">
+              <div class="attribute">
+                <span class="stat">+10%</span> Worldbuilding
+              </div>
+              <div class="attribute">
+                <span class="stat">+20%</span> Expression
+              </div>
+              <div class="special-ability">
+                ◇ Space/Time Travel
+              </div>
+            </div>
+          </div>
+          <div class="card" onclick="openTab('cw')" id="card-2">
+            <div class="card-title">Penman's Spear</div>
+            <img src="images/b.svg" class="card-image">
+            <div class="card-text">
+              <div class="attribute">
+                <span class="stat">+50</span> Wordsmithing
+              </div>
+              <div class="attribute">
+                <span class="stat">+20</span> Storytelling
+              </div>
+              <div class="special-ability">
+                ◇ Encyclopaedic Awareness
+              </div>
+            </div>
+          </div>
+          <div class="card" onclick="openTab('wd')" id="card-3">
+            <div class="card-title">Web Mason's Phalanx</div>
+            <img src="images/c.svg" class="card-image">
+            <div class="card-text">
+              <div class="attribute">
+                <span class="stat">+75</span> Tenacity
+              </div>
+              <div class="attribute">
+                <span class="nstat">-10%</span> Agility
+              </div>
+              <div class="attribute">
+                <span class="stat">+5</span> Bragging Rights
+              </div>
+              <div class="special-ability">
+                ◇ Night Shift
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="left-half" id="lh1">
+          <div class="card-details-box" id="gd">
+            <div class="common-heading">
+              Graphic Design
+            </div>
+            <div class="common-text card-details">
+              I am a skilled illustrator across various styles of art and design. I work with Affinity Designer 2,
+              assisted
+              by an iPad and a Pencil.
+            </div>
+          </div>
+          <div class="card-details-box" id="wd">
+            <div class="common-heading">
+              Web Design
+            </div>
+            <div class="common-text card-details">
+              Those four years of computer engineering have to account for something, right? Backend? Frontend? I don't
+              really see a difference. I gotchu fam.
+            </div>
+          </div>
+          <div class="card-details-box" id="cw">
+            <div class="common-heading">
+              Content Writing
+            </div>
+            <div class="common-text card-details">
+              I used to be the Editor-in-Chief of my college media organisation, while also working with the yearbook
+              team,
+              The Editorial Board. I'm no Hemingway, but I can handle my own when it comes to copy writing, or editing.
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </section>
+
+
+
+
+
+
+
+
+        <section class="panel six">
+      <div class="section-heading" id="sh2">[> armoury// skillset]</div>
+      <div class="box">
+        <div class="desk">
+          <!-- <div class="common-text">The 3 core services of The Forge:</div> -->
+          <div class="btn-tray" id="bt1">
+            <button onclick="openTab('cw')" class="hoverable">Content Writing</button>
+            <button onclick="openTab('gd')" class="hoverable button-active">Graphic Design</button>
+            <button onclick="openTab('wd')" class="hoverable">Web Design</button>
+          </div>
+          <div class="details">
+            <div class="box armoury-details" id="gd">
+              <div class="common-text">
+                Logos. Posters. Symbols. Packaging. Cards. Illustrations. Wireframing. UX/UI.<br><br>
+                Thy shall be done. <br>
+                With an exposure in design spanning a decade, I can handle almost any requirement, and all clients.
+                Whether you are crystal clear about your needs, or require help in polishing your ideas finely, the
+                <span class="underline">Forge</span> has you covered. <br>
+                Our trump card will always be our diverse knowledge, awareness, and design ideologies rooted in
+                psychology.
+              </div>
+
+            </div>
+            <div class="box armoury-details hidden" id="cw">
+              <div class="common-text">
+                I used to serve as the Editor-in-Chief of my college's media publication. To use words in a way that
+                shapes the mindset of the masses, is exactly what I like doing, and am good at. Forget languages, I can
+                speak Colin Firth from Kingsman (hella formal), Ms. Maisel (oh-so-quippy), and Andrew West from Fleabag
+                (poetic, sad boi hours). Basically, <i>wahi</i>, range <i>hai ladke mein.</i> Sometimes Al Pacino from
+                Godfather too.<br><br>
+                <i>* Pulls out a gruff, old man voice * </i><br>
+                "Imma make you an offer you can't refuse!"
+              </div>
+
+            </div>
+            <div class="box armoury-details hidden" id="wd">
+              <div class="common-text">
+                Let's be real: your average "web developer" in India can't do all of front-end, back-end, and design.
+                Even if they could, can they fill in the content with their own, well-crafted words? <br><br>
+                Here I am, and I can promise, expertise in full-stack development backed by a Computer Science degree is
+                absolutely the least of my skills. <br>
+                Keep it simple, my friend, make sure your website guy can design, and write!
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="skill-tree-container">
+          <div class="skill-tree">
+            <div class="tags-tray">
+              <div class="tag">Photoshop</div>
+              <div class="tag">Illustrator</div>
+              <div class="tag">Affinity Designer</div>
+              <div class="tag">Procreate</div>
+              <div class="tag">RAW Post-processing</div>
+              <div class="tag">UX/UI</div>
+              <div class="tag">Branding</div>
+              <div class="tag">Typography</div>
+              <div class="tag">Wireframing</div>
+              <div class="tag">Vector Illustration</div>
+            </div>
+          </div>
+          <div class="skill-tree">
+            <div class="tags-tray">
+              <div class="tag">Content Writing</div>
+              <div class="tag">Copywriting</div>
+              <div class="tag">Brand Storytelling</div>
+              <div class="tag">Landing Page Copy</div>
+              <div class="tag">Content Strategy</div>
+              <div class="tag">SEO Optimization</div>
+              <div class="tag">Keyword Research</div>
+              <div class="tag">Content Editing</div>
+              <div class="tag">Style Guide Adherence</div>
+              <div class="tag">Conversion Copywriting</div>
+            </div>
+          </div>
+          <div class="skill-tree">
+            <div class="tags-tray">
+              <div class="tag">HTML / CSS</div>
+              <div class="tag">JavaScript</div>
+              <div class="tag">Python</div>
+              <div class="tag">node.js</div>
+              <div class="tag">GSAP</div>
+              <div class="tag">Mobile Responsiveness</div>
+              <div class="tag">CMS / Wordpress</div>
+              <div class="tag">Web Builders</div>
+              <div class="tag">UX / UI</div>
+              <div class="tag">Wireframing</div>
+            </div>
+          </div>
+          <div class="skill-tree st-x">
+            <div class="tree-label">Misc Skills</div>
+            <div class="tags-tray tt-x">
+              <div class="tag">GitHub</div>
+              <div class="tag">Squarespace / Wix</div>
+              <div class="tag">Sound Mixing</div>
+              <div class="tag">Data Science</div>
+              <div class="tag">Brand Page Management</div>
+              <div class="tag">Brand Page Strategy</div>
+            </div>
+          </div>
+
+
+        </div>
+    </section>
